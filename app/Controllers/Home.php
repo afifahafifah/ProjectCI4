@@ -8,5 +8,13 @@ class Home extends BaseController
 	}
 
 	//--------------------------------------------------------------------
+	public function show()
+	{
+		$data['nama']='afifah';
+		$data['jurusan']='ilmu komputer';
+		echo view('mahasiswa/header',$data);
+		echo view('mahasiswa/index',$data);
+		echo view('mahasiswa/footer', $data);
+	}
 
 }
