@@ -9,7 +9,7 @@ class Helloworld extends BaseController {
 	}
 	public function show()
 	{
-		echo "Afifah";
-		echo "1817051068";
+		echo "Wellcome to Afifah's store! <br/>";
+		echo " Menjual berbagai jenis dan brand makanan kucing";
 	}
 }

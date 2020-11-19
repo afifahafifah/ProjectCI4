@@ -6,14 +6,22 @@ class ProdukSeeder extends \CodeIgniter\Database\Seeder
         {
                 $data = [
                     [
-                        'nama_produk' => 'baju',
-                        'deskripsi_produk'    => 'baju panjang'
+                        'nama_produk' => 'Cat food super premium',
+                        'deskripsi_produk'    => 'Royal Canin'
                     ],
 
                     [
-                    'nama_produk' => 'celana',
-                    'deskripsi_produk'    => 'celana panjang'
+                    'nama_produk' => 'Cat food premium',
+                    'deskripsi_produk'    => 'Proplan'
                     ],
+                    [
+                        'nama_produk' => 'Cat food medium',
+                        'deskripsi_produk'    => 'Equilibrio'
+                    ],
+                    [
+                        'nama_produk' => 'Cat food regular',
+                        'deskripsi_produk'    => 'Ori cat'
+                    ]
                 ];
 
 
